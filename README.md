@@ -1,21 +1,17 @@
 # http-raw-headers-parser
-​
 Parse http rawHeaders to object without lowercase.
-​
+
 ## Installation
-​
 ```
 npm install http-raw-headers-parser
 ```
-​
+
 ## Example
-​
 When implementing a proxy server, all requests proxied will have their HTTP headers "lowercase", but you can keep it as it is by "hacking" the object on "getHeaders" method.
-​
 ```javascript
 const parseRawHeaders = require("http-raw-headers-parser")
 var proxy = httpProxy.createProxyServer({ }); //...
-​
+
 proxy.on("proxyReq", function(proxyReq, req, res, options) 
 {
     // Tampering the method "getHeaders"
@@ -23,7 +19,7 @@ proxy.on("proxyReq", function(proxyReq, req, res, options)
     proxyReq.getHeaders () => originalHeaders;
 });
 ```
-​
+
 ## License
 The MIT License (MIT)
 
