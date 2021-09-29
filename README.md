@@ -25,9 +25,8 @@ proxy.on("proxyReq", function(proxyReq, req, res, options)
 ```
 ​
 ## License
-​
 The MIT License (MIT)
-​
+
 Copyright &copy; 2021 Tapas Thakkar
 
 Permission is hereby granted, free of charge, to any person obtaining a
