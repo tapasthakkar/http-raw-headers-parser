@@ -1,6 +1,6 @@
 "use strict";
 
-export default function parseRawHeaders(rawHeaders)
+module.exports = function parseRawHeaders(rawHeaders)
 {
     var headersObject = {};
     var iterator = createIterator(rawHeaders);
