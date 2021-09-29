@@ -10,7 +10,6 @@ npm install http-raw-headers-parser
 ​
 ## Example
 ​
-**On proxy** 
 When implementing a proxy server, all requests proxied will have their HTTP headers "lowercase", but you can keep it as it is by "hacking" the object on "getHeaders" method.
 ​
 ```javascript
