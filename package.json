@@ -1,0 +1,24 @@
+{
+  "name": "http-raw-headers-parser",
+  "version": "1.0.0",
+  "description": "Parse node http rawHeaders to object without lowercase.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tapasthakkar/http-raw-headers-parser.git"
+  },
+  "keywords": [
+    "header",
+    "rawheaders",
+    "http"
+  ],
+  "author": "Tapas Thakkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tapasthakkar/http-raw-headers-parser/issues"
+  },
+  "homepage": "https://github.com/tapasthakkar/http-raw-headers-parser#readme"
+}
