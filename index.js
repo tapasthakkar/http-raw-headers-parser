@@ -9,7 +9,14 @@ module.exports = function parseRawHeaders(rawHeaders)
     while (!headerIteration.done)
     {
         let header = headerIteration.value;
-        headersObject[header.name] = header.value;
+        if (headersObject[header.name])
+        {
+            headersObject[header.name] += `, ${header.value}`;
+        }
+        else
+        {
+            headersObject[header.name] = header.value;
+        }
         headerIteration = iterator.next();
     }
 
