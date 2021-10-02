@@ -1,6 +1,6 @@
 {
   "name": "http-raw-headers-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parse node http rawHeaders to object without lowercase.",
   "main": "index.js",
   "scripts": {
